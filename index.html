@@ -1,76 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
-    <title>BlrB</title>
-    <link href="bootstrap.min.css" rel="stylesheet">
-    <link href="cover.css" rel="stylesheet">
-    <script src="ie-emulation-modes-warning.js"></script>
-  </head>
+    <head>
+        <meta charset="utf-8">
+        <title>Bobkov Andrey</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css">
+    </head>
 
-  <body>
+    <body>
 
-    <style>
-
-body,html{height: 100%;padding: 0;margin: 0;}
-  .block-home {
-  background: url("img/background.jpg") no-repeat scroll center center white; 
-  box-sizing: border-box;
-  height: 100%;
-  min-height: 400px;
-  overflow: hidden;
-  position: relative;
-}
- 
-.background-cover {
-  background-size: cover !important;
-}
-</style>
-
-    <div class="site-wrapper block-home background-cover">
-
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Bobkov Andrey</h3>
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li class="active"><a href="index.html">Home</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                </ul>
-              </nav>
+        <div class="container">
+            <div class="content">
+                <div>
+                    <h1>Bobkov Andrey</h1>
+                </div>
+                <hr>
+                <div>
+                    <h3>Contributions on my GitHub</h3>
+                    <div class="github-calendar">
+                        Loading the data ...
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h3>Technologies on my GitHub</h3>
+                    <iframe width="676" height="600" src="https://ionicabizau.github.io/github-profile-languages/api.html?blrB" frameborder ="0"></iframe>   
+                </div>
             </div>
-          </div>
-
-          <div class="inner cover">
-            <h1 class="cover-heading"></h1>
-            <p class="lead">Do you have any questions? You can send me an email</p>
-            <p class="lead">
-              <a href="MAILTO:bobr8949@yandex.ru" class="btn btn-lg btn-default">Send</a>
-            </p>
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-            <!--  <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p> -->
-            </div>
-          </div>
-
         </div>
+    </body>
 
-      </div>
+    <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
 
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="bootstrap.min.js"></script>
-    <script src="ie10-viewport-bug-workaround.js"></script>
-  </body>
+    <script>
+        GitHubCalendar(".github-calendar", "blrB");
+    </script>
+
 </html>
