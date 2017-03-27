@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+.contact-info {
+  margin: 10px;
+}
+
 .github-calendar {
   width: 676px;
 }
